@@ -11,5 +11,3 @@ class Server {
     this.isConnected = false;
   }
 }
-
-export default Server;
