@@ -13,3 +13,4 @@ class Server {
 }
 
 console.log("welcome to my server");
+export default Server;
