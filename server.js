@@ -1,3 +1,15 @@
-console.log("connected");
-const isConnected = true;
-const greet = "hello";
+class Server {
+  constructor() {
+    this.isConnected = false;
+  }
+
+  connect() {
+    this.isConnected = true;
+  }
+
+  disconnect() {
+    this.isConnected = false;
+  }
+}
+
+export default Server;
