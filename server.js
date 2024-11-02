@@ -11,3 +11,5 @@ class Server {
     this.isConnected = false;
   }
 }
+
+console.log("welcome to my server");
